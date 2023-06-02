@@ -4,7 +4,6 @@ const jwt = require('jsonwebtoken');
 //Importation of dotenv for environment variables :
 const dotenv = require("dotenv").config();
 
- 
 
 module.exports = (req, res, next) => {
    try {
