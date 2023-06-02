@@ -6,8 +6,7 @@ This application provides various features for users to review products, upload 
 <img width="1275" alt="Screenshot 2023-06-02 at 15 33 01" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/bd81421e-7aae-453a-b99f-750644404c7c">
 
 
-<img width="1280" alt="Screenshot 2023-06-02 at 15 31 40" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/653c2927-7090-4b32-8c8f-a67e1591647f">
-
+<img width="1267" alt="Screenshot 2023-06-02 at 15 32 07" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/84277751-3c2f-4c9d-a3bc-86992581e95b">
 
 ## Deployment
 
