@@ -30,7 +30,7 @@ To deploy the Backend
   npm start
 ```
 
-Before accessing the app : 
+Before accessing the Application  : 
 
 ```bash
    you'll need to create a .env file in the root directory (back folder).
