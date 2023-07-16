@@ -1,12 +1,15 @@
 
 # Building of a secure API for a food review app
 
-This application provides various features for users to review products, upload images, express their preferences through liking or disliking products or images, and more. It serves as an e-commerce platform, offering a range of functionalities to enhance the user experience.
+Cette application fournit diverses fonctionnalités permettant aux utilisateurs d'examiner les produits, de télécharger des images, d'exprimer leurs préférences en aimant ou en n'aimant pas les produits ou les images, et plus encore. Il sert de plate-forme de commerce électronique, offrant une gamme de fonctionnalités pour améliorer l'expérience utilisateur.
+
+
 
 <img width="1275" alt="Screenshot 2023-06-02 at 15 33 01" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/bd81421e-7aae-453a-b99f-750644404c7c">
 
 
 <img width="1267" alt="Screenshot 2023-06-02 at 15 32 07" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/84277751-3c2f-4c9d-a3bc-86992581e95b">
+
 
 ## Deployment
 
@@ -19,9 +22,6 @@ To deploy the Frontend
 ```
 
 
-
-
-
 To deploy the Backend
 
 ```bash
@@ -30,54 +30,36 @@ To deploy the Backend
   npm start
 ```
 
-Before accessing the Application  : 
+## Avant d'accéder à l'Application :
+
+
 
 ```bash
-   you'll need to create a .env file in the root directory (back folder).
-   Inside this new file, add environment-specific variables on new lines in the form of NAME=VALUE, as below :
+    vous devrez créer un fichier .env dans le répertoire racine (dossier arrière).
+    Dans ce nouveau fichier, ajoutez des variables spécifiques à l'environnement sur de nouvelles lignes sous la forme NAME=VALUE, comme ci-dessous :
 
 
 ```
 
 
+Ouvrez ensuite sur n'importe quel navigateur web : http://localhost:4200/
 
-
-To deploy the Backend
-
-```bash
-  cd Backend
-  npm install
-  npm start
-```
-
-Before accessing the app : 
-
-```bash
-   you'll need to create a .env file in the root directory (back folder).
-   Inside this new file, add environment-specific variables on new lines in the form of NAME=VALUE, as below :
-
-
-```
+Et nous avons exécuté le backend : http://localhost:3000/
 
 
 
 
-Then open on any web browser : http://localhost:4200/
+## What did I learn ?
+ La construction d'une API REST m'a permis d'appliquer mes connaissances JavaScript au développement backend d'une application, en utilisant Node.js, Express et MongoDB.
 
-And we have run backend : http://localhost:3000/
+J'ai également appris à identifier et appliquer les règles de sécurité de base au développement d'une application, afin de respecter les normes OWASP et RGPD.
+Afin de répondre à ces exigences en matière de sécurité, j'ai utilisé (entre autres) les packages ci-dessous :
+
+- bcrypt, pour hacher et saler un mot de passe
+- jsonwebtoken, afin d'assurer une - authentification sécurisée sur toutes les requêtes
+- mongoose-unique-validator, afin de garantir l'unicité d'une adresse e-mail et de renvoyer les erreurs
+- dotenv, afin de stocker et sécuriser les identifiants de la base de données
+- crypto-js, afin de protéger les adresses email des utilisateurs, pour respecter les règles RGPD
+- express-mongo-sanitize, afin de contrer les attaques par injection, en validant les entrées.
 
 
-
-# What did I learn ?
-
-Building a REST API allowed me to apply my JavaScript knowledge to the backend development of an application, using Node.js, Express and MongoDB.
-
-I also learnt how to identify and apply basic security rules to the developpement of an application, in order to comply with the OWASP and RGPD standards.
-In order to meet these requirements in terms of security, I used (among others) below packages :
-
-- bcrypt, in order to hash and salt a password
-- jsonwebtoken, in order to ensure secure - authentification on all requests
-- mongoose-unique-validator, in order to ensure an email address' uniqueness and to return errors
-- dotenv, in order to store and secure database credentials
-- crypto-js, in order to protect users' email addresses, to comply with the RGPD rules
-- express-mongo-sanitize, in order to counter injection attacks, by validating the entries.
