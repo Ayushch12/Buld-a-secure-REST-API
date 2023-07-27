@@ -1,5 +1,5 @@
 
-# Building of a secure API for a food review app
+# Construction d'une API sécurisée pour une application de critique alimentaire
 
 Cette application fournit diverses fonctionnalités permettant aux utilisateurs d'examiner les produits, de télécharger des images, d'exprimer leurs préférences en aimant ou en n'aimant pas les produits ou les images, et plus encore. Il sert de plate-forme de commerce électronique, offrant une gamme de fonctionnalités pour améliorer l'expérience utilisateur.
 
