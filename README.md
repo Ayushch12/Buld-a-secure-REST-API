@@ -11,9 +11,9 @@ Cette application fournit diverses fonctionnalités permettant aux utilisateurs 
 <img width="1267" alt="Screenshot 2023-06-02 at 15 32 07" src="https://github.com/Ayushch12/Buld-a-secure-API/assets/96380226/84277751-3c2f-4c9d-a3bc-86992581e95b">
 
 
-## Deployment
+## Déploiement
 
-To deploy the Frontend
+Pour déployer le Frontend
 
 ```bash
   cd Frontend
@@ -22,7 +22,7 @@ To deploy the Frontend
 ```
 
 
-To deploy the Backend
+Pour déployer le backend
 
 ```bash
   cd Backend
